@@ -11,7 +11,7 @@ app.use('/tweet', authenticateToken, tweetRoutes);
 app.use('/auth', authRoutes);
 
 app.get('/', (req, res) => {
-  res.send('Hello "updated" world!');
+  res.send('Hello "updated" DVC world!');
 });
 
 app.listen(3000, () => {
